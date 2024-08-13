@@ -33,6 +33,7 @@ h5{
     font-size: 18px;
     font-weight: 600;
     color: rgb(255, 255, 255);
+    margin-bottom: .5rem;
 
 }
 p{
@@ -126,7 +127,10 @@ i{
 }
 
 .cover-img{
+    width: 350px;
+    height: 580px;
     position: relative;
+    
 }
 
 .free-videos{
@@ -137,7 +141,8 @@ i{
     backdrop-filter: blur(20px);
     background: rgba(255, 255, 255, 0.1);
     position: absolute;
-    transform: translateX(1050px) translateY(-490px)
+    bottom: 28rem;
+    right: 16rem;
     
 }
 
@@ -154,7 +159,9 @@ i{
     align-items: center;
     gap: 10px;
     position: absolute;
-    transform: translateX(750px) translateY(-180px);
+    bottom: 9rem;
+    right: 35rem;
+
 }
 
 #circle{
@@ -164,17 +171,36 @@ i{
     border-radius: 50%;
 }
 
+/* Change your habit section */
+
 .change-habit-container{
+    width: 1050px;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
+.habit-items-container{
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
 .habit-items{
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
 }
 
 .habit-items, img{
-    border: 50%;
+    margin-bottom: 2rem;
+    border-radius: 50%;
+}
+
+#habit{
+    margin-bottom: 1.5rem;
 }

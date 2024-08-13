@@ -1,0 +1,40 @@
+@media screen and (max-width: 576px) {
+
+    h2{
+        font-size: 36px;
+        font-weight:900;
+    }
+
+    .banner-container{
+        width: 100%;
+        
+    }
+    .nav-container{
+        margin: 20px;
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .nav-items{
+        display: none;
+    }
+    #bar{
+        display: block;
+    }
+
+    .banner-body{
+        margin: 0 20px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cover-img{
+        width: 100%;
+        margin-top: 0;
+    }
+    #btn{
+        display: flex;
+    }
+
+}
