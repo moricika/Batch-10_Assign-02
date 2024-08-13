@@ -21,19 +21,22 @@ h3{
     font-size: 3rem;
     font-weight: 900;
     color: rgb(255, 255, 255);
+    margin-bottom: 1.5rem;
 }
 
 h4{
     font-size: 2rem;
     font-weight: 900;
     color: rgb(255, 255, 255);
+    margin-bottom: 1.5rem;
+    margin-top: 2rem;
 }
 
 h5{
     font-size: 18px;
     font-weight: 600;
     color: rgb(255, 255, 255);
-    margin-bottom: .5rem;
+    margin-bottom: 1rem;
 
 }
 p{
@@ -105,7 +108,7 @@ i{
 .primary-btn{
     background-color: rgb(230, 83, 60);
     color: rgb(255, 255, 255);
-    padding: 1rem 2rem;
+    padding: .5rem 2rem;
     font-size: 1.1rem;
     font-weight: 600;
     border-radius: 40px;
@@ -118,7 +121,7 @@ i{
     border: 1px solid rgb(255, 255, 255);
     border-radius: 42px;
     color: rgb(255, 255, 255);
-    padding: 1rem 2rem;
+    padding: .5rem 2rem;
     font-size: 1.1rem;
     font-weight: 600;
     border-radius: 40px;
@@ -201,6 +204,197 @@ i{
     border-radius: 50%;
 }
 
-#habit{
-    margin-bottom: 1.5rem;
+
+
+/* run an extra mile easily section */
+
+.run-extra-container{
+    width: 1060px;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+    margin: 2rem auto;
+    position: relative;
+}
+
+.run-info{
+    width: 440px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 2rem 2rem;
+}
+
+#run{
+    width: 40%;
+    border-radius: 10%;
+    position: absolute;
+    bottom: 0;
+    right: 2%;
+
+  
+}
+
+
+/* BMI section */
+
+
+
+.bmi{
+    margin: 1rem 380px;
+}
+
+.charts-container{
+    width: 1440px;
+    background: rgb(34, 34, 34);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+table{
+    border-collapse: collapse;
+}
+th{
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    padding: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+td{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    padding: 10px;
+}
+
+.inputs{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin-top: 2rem;
+    border-radius: 8px;
+
+}
+
+/* #full{
+    display: grid;
+    grid-template-columns: 400px;
+} */
+
+.input{
+    color: rgba(255, 255, 255, 0.6);
+    background: rgba(255, 255, 255, 0.1); 
+    border: none;
+    border-radius: 8px;
+    padding: 10px 15px;
+}
+
+
+.calculation{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+
+/* meet our team section */
+
+
+.member-container{
+    width: 1040px;
+    margin: 2rem auto;
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.1);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* padding: 20px ; */
+}
+
+.meet{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.team-member{
+    position: relative;
+    /* padding: 10px; */
+    margin-top: 1.8rem;
+    margin-left: 1.8rem;
+
+}
+
+.team-member img{
+    width: 90%;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.member-info{
+    position: absolute;
+    bottom: 4rem;
+    left: 2rem;
+   
+}
+
+
+
+/* footer section */
+
+.footer-container{
+    width: 1240px;
+    padding: 2rem 150px;
+    background: rgba(255, 255, 255, 0.1);
+    /* display: grid;
+    grid-template-columns: repeat(3, 1fr); */
+    
+      
+}
+.footer-item{
+    display: flex;
+}
+.footer-name{
+    width: 443px;
+    height: 176px;
+    margin-right: 7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.service{
+    width: 182px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+
+}
+
+.services{
+    display: flex;
+    justify-content: space-between;
+    gap: 7rem;
+}
+
+li{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 23px;
+    text-align: left;
+    text-decoration: none;
+}
+
+hr{
+    width: 1150px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    margin-bottom: 2rem;
+}
+
+#copyright{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
