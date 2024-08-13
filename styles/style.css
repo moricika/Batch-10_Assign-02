@@ -307,7 +307,7 @@ td{
     background: rgba(255, 255, 255, 0.1);
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    /* padding: 20px ; */
+
 }
 
 .meet{
@@ -318,7 +318,6 @@ td{
 
 .team-member{
     position: relative;
-    /* padding: 10px; */
     margin-top: 1.8rem;
     margin-left: 1.8rem;
 
@@ -345,8 +344,7 @@ td{
     width: 1240px;
     padding: 2rem 150px;
     background: rgba(255, 255, 255, 0.1);
-    /* display: grid;
-    grid-template-columns: repeat(3, 1fr); */
+    
     
       
 }
