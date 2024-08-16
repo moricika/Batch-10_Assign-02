@@ -13,6 +13,8 @@
         font-weight:900;
     }
 
+/* banner style starts */
+
     .banner-container{
         display: flex;
         flex-direction: column;
@@ -53,12 +55,14 @@
 
     .cover-img{
         width: 100%;
-        /* height: 300px; */
         margin-top: 0;
     }
+
     #btn{
         display: flex;
     }
+
+/* banner style ends */
 
 /* Change your habit section starts */
 
@@ -99,21 +103,23 @@
         border-radius: 40px;
         border: none;
         margin-top: 1.5rem;
-        /* display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center; */
-        /* width: 150px;
-        height: 35px; */
+       
+    }
+
+    .run-info{
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        padding: 1rem .5rem;
     }
 
     #run{
-        width: 80%;
+        width: 70%;
         border-radius: 10%;
-        padding-left: 2rem;
-        /* position: absolute; */
-        /* bottom: 0;
-        right: 2%;   */
+        padding-left: 1rem;
+        margin-left: 1rem;
+        
     }
 
 /* run an extra mile easily section ends*/
@@ -122,6 +128,7 @@
 
 
     .training-container{
+        display: none;
         margin: 1rem auto;
     }
 
@@ -130,8 +137,7 @@
         flex-direction: column;
         align-items: flex-start;
         text-align: start;
-        /* margin: 0 auto; */
-        /* padding: 1rem; */
+       
      }
     
      #third-img{
@@ -149,18 +155,8 @@
         grid-template-columns: 250px 350px;
     }
 
-    /* .item img{
-        width: 80%;
-        height: 200px;
-        border-radius: 1px;
-        filter: brightness(60%);
-        
-    } */
-
-
 
 /* trainning and exercise section ends */
-
 
 
 /* BMI section starts */
@@ -197,9 +193,6 @@
         width: 395px;
     }
 
-
-
-
 /* BMI section ends */
 
 /* meet our team section starts*/
@@ -207,12 +200,9 @@
     .team-member-container{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        /* display: flex;
-        flex-direction: column; */
         align-items: center;
         text-align: center;
     }
-
 
     .member-container{
         margin: 2rem auto;
@@ -221,26 +211,20 @@
     }
 
     .meet{
-        /* margin: 0 auto; */
-        /* display: flex;
-        flex-direction: column; */
         align-items: center;
         text-align: center;
     }
 
     .team-member img{
         width: 100%;
-        /* height: 200px; */
         border-radius: 20px;
     }
-
 
 /* meet our team section ends*/
 
 /* sign up section starts */
 
     .sign-up{
-        /* margin: .5rem; */
         padding-left: 1rem;
     }
 
@@ -248,16 +232,8 @@
 
 /* footer section starts */
 
-    .footer-container{
-        
-        
-    }
-
+ 
     .footer-name{
-        /* width: 100%; */
-        /* display: flex;
-        flex-direction: column; */
-        /* justify-content: flex-start; */
         align-items: start;
         text-align: start;
 
@@ -273,40 +249,8 @@
         display: flex;
         flex-direction: column;
         padding-left: 1rem;
-        /* display: grid;
-        grid-template-columns: repeat(1, 1fr); */
     }
-
-    /* .services{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        gap: 7rem;
-    } */
-
-    /* .service{
-        display: flex;
-        flex-direction: column;
-    
-    } */
-
-    /* .hr{
-        width: 70%;
-        border: 1px solid rgba(255, 255, 255, 0.1);
-        margin-top: 1.5rem;
-        margin-left: 4rem;
-        margin-bottom: 1.5rem;
-    } */
-    
 
 }
 
 /* footer section ends */
-
-/* .change-habit-container, .run-extra-container, .training-container, .bmi-container, .charts-container, .team-member-container, .sign-up, .footer-container{
-    display: none;
-}  */
-
-/* .banner-container, .change-habit-container, .run-extra-container, .training-container, .bmi-container, .charts-container, .team-member-container, .sign-up, .footer-container{
-    display: none;
-}  */
