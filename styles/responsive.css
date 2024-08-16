@@ -1,4 +1,12 @@
+
+/* small device responsive starts */
+
 @media screen and (max-width: 576px) {
+
+    *{
+        margin: 0;
+        padding: 0;
+    }
 
     h2{
         font-size: 36px;
@@ -6,6 +14,8 @@
     }
 
     .banner-container{
+        display: flex;
+        flex-direction: column;
         width: 100%;
         
     }
@@ -29,12 +39,274 @@
         flex-direction: column;
     }
 
+    .free-videos{
+        position: absolute;
+        top: 1rem;
+        right: .5rem;
+    }
+
+    .tutorial{
+        position: absolute;
+        top: 12rem;
+        left: 2rem; 
+    }
+
     .cover-img{
         width: 100%;
+        /* height: 300px; */
         margin-top: 0;
     }
     #btn{
         display: flex;
     }
 
+/* Change your habit section starts */
+
+    .change-habit-container{
+        margin: 1rem 3rem;
+    }
+
+    .habit-info{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .habit-items-container{
+        margin-top: 2rem;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+/* Change your habit section ends*/
+
+/* run an extra mile easily section starts */
+
+    .run-extra-container{
+        margin: 1rem auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #primary-btn-2{
+        background-color: rgb(230, 83, 60);
+        color: rgb(255, 255, 255);
+        padding: 1rem 8rem;
+        font-size: 1.1rem;
+        font-weight: 600;
+        border-radius: 40px;
+        border: none;
+        margin-top: 1.5rem;
+        /* display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center; */
+        /* width: 150px;
+        height: 35px; */
+    }
+
+    #run{
+        width: 80%;
+        border-radius: 10%;
+        padding-left: 2rem;
+        /* position: absolute; */
+        /* bottom: 0;
+        right: 2%;   */
+    }
+
+/* run an extra mile easily section ends*/
+
+/* trainning and exercise section starts */
+
+
+    .training-container{
+        margin: 1rem auto;
+    }
+
+    .train-info{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: start;
+        /* margin: 0 auto; */
+        /* padding: 1rem; */
+     }
+    
+     #third-img{
+        display: none;
+
+     }
+     .row-1{
+        margin-top: 1rem;
+        display: grid;
+        grid-template-columns: 300px 300px;
+    }
+
+    .row-2{
+        display: grid;
+        grid-template-columns: 250px 350px;
+    }
+
+    /* .item img{
+        width: 80%;
+        height: 200px;
+        border-radius: 1px;
+        filter: brightness(60%);
+        
+    } */
+
+
+
+/* trainning and exercise section ends */
+
+
+
+/* BMI section starts */
+
+    .bmi{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: start;
+    padding: 1rem;
+    }
+
+    .charts-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        }
+
+    .chart{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        
+    }
+
+    .calc-bmi{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    #full{
+        margin-top: 1rem;
+        width: 395px;
+    }
+
+
+
+
+/* BMI section ends */
+
+/* meet our team section starts*/
+
+    .team-member-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        /* display: flex;
+        flex-direction: column; */
+        align-items: center;
+        text-align: center;
+    }
+
+
+    .member-container{
+        margin: 2rem auto;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .meet{
+        /* margin: 0 auto; */
+        /* display: flex;
+        flex-direction: column; */
+        align-items: center;
+        text-align: center;
+    }
+
+    .team-member img{
+        width: 100%;
+        /* height: 200px; */
+        border-radius: 20px;
+    }
+
+
+/* meet our team section ends*/
+
+/* sign up section starts */
+
+    .sign-up{
+        /* margin: .5rem; */
+        padding-left: 1rem;
+    }
+
+/* sign up section ends */
+
+/* footer section starts */
+
+    .footer-container{
+        
+        
+    }
+
+    .footer-name{
+        /* width: 100%; */
+        /* display: flex;
+        flex-direction: column; */
+        /* justify-content: flex-start; */
+        align-items: start;
+        text-align: start;
+
+    }
+
+    #footer-fitness{
+        color: red;
+        font-size: 64px;
+        font-weight: bolder;
+    }
+
+    .footer-item{
+        display: flex;
+        flex-direction: column;
+        padding-left: 1rem;
+        /* display: grid;
+        grid-template-columns: repeat(1, 1fr); */
+    }
+
+    /* .services{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 7rem;
+    } */
+
+    /* .service{
+        display: flex;
+        flex-direction: column;
+    
+    } */
+
+    /* .hr{
+        width: 70%;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        margin-top: 1.5rem;
+        margin-left: 4rem;
+        margin-bottom: 1.5rem;
+    } */
+    
+
 }
+
+/* footer section ends */
+
+/* .change-habit-container, .run-extra-container, .training-container, .bmi-container, .charts-container, .team-member-container, .sign-up, .footer-container{
+    display: none;
+}  */
+
+/* .banner-container, .change-habit-container, .run-extra-container, .training-container, .bmi-container, .charts-container, .team-member-container, .sign-up, .footer-container{
+    display: none;
+}  */
